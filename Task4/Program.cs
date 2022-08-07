@@ -6,7 +6,9 @@ Console.WriteLine("Четные:");
 
 while(a <= N)
 {
-    if(a % 2 == 0) 
+    if(a % 2 == 0)
+    {
         Console.Write(" " +a);
+    } 
         a = a + 1;
 }    
